@@ -1,0 +1,254 @@
+body {
+  font-family: "Merriweather", serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 2;
+  background-image: url("/images/和紙背景.jpg");
+}
+
+.swiper-container {
+  width: 100%;
+  margin: 0 0 50px;
+  padding: 0;
+}
+
+.swiper-slide img{
+	height: 700px;
+  width: 100%;
+  object-fit: cover;  
+}
+
+.main-nav .logo{
+  text-align: center;
+}
+
+.main-nav .logo img{
+  width: 10%;
+  height: 10%; 
+  margin-top: 0.5%;
+  border-radius: 50%;
+  background-position: center top;}
+
+.main-nav .main-menu{
+  vertical-align: middle;
+  line-height: 0;
+  text-align: center;
+}
+
+.main-nav .main-menu a{
+  padding: 35px 40px;
+  color: #130d08;
+  display: -moz-inline-stack;
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.main-nav .main-menu a:hover,.main-nav .main-menu a:focus,.main-nav .main-menu a:active{
+  color: #800080;
+  text-decoration: none;
+}
+
+.social{
+  margin-right: auto;
+	margin-left: auto;
+}
+
+.social .timeline-Viewport{
+  margin-right: auto;
+	margin-left: auto;
+}
+
+.social .insta{
+  text-decoration: none;
+  text-align: center;
+}
+
+.social .insta i{
+	color: #666;
+}
+
+.footer{
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  text-align: center;
+}
+
+.container-contact{
+  display: inline-block;
+}
+
+.table {
+  border-spacing: 0;
+  border-collapse: collapse;
+  background-color: transparent;
+  width: 100%;
+}
+
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+  padding: 8px;
+  line-height: 1.42857143;
+  vertical-align: top;
+  border-top: 1px solid #ddd;
+}
+
+.footer th {
+  font-weight: normal;
+  font-size: 15px;
+}
+
+.text-left{
+  text-align: left;
+}
+
+.text-right{
+  text-align: right;
+}
+
+.fon {
+  font-family: "Merriweather", serif;
+}
+
+.map_wrapper {
+  max-width: 700px;
+  min-width: 280px;
+  margin: 20px auto;
+  padding: 4px;
+}
+
+.googlemap{
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 80.25%;
+  height: 0;
+  width: 300px;
+  border: 1px solid #CCC;
+}
+
+.googlemap iframe{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.col-contact1 , .map_wrapper{
+  position: relative;
+  min-height: 1px;
+  padding-right: 25px;
+  padding-left: 25px;
+  float: left;
+}
+
+.menu-table1,.menu_wrapper{
+  display: inline-block;
+  width: 20%;
+  vertical-align: middle;
+  padding-right: 25px;
+  padding-left: 25px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.menu_wrapper{
+  margin-bottom: -44px;
+}
+
+.menu-content{
+  overflow:  hidden;
+  display:-webkit-box;
+  display:-moz-box;
+  display:-ms-flexbox;
+  display:-webkit-flex;
+  display:-moz-flex;
+  display:flex;
+  -webkit-box-lines:multiple;
+  -moz-box-lines:multiple;
+  -webkit-flex-wrap:wrap;
+  -moz-flex-wrap:wrap;
+  -ms-flex-wrap:wrap;
+  flex-wrap:wrap;
+  text-align: center;
+  display: inline-block;
+}
+
+.menu-photo1{
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 10%;
+  display: inline-block;  
+  margin-right: 10%;
+}
+
+.menu-photo1 img{
+  display: inline-block;  
+  height: 200px;
+  width: 150%;
+  object-fit: cover;
+}
+
+.row{
+  overflow: hidden;
+}
+
+.greeting-image img{
+  height: 700px;
+  width: 100%;
+  object-fit: cover;  
+}
+
+.middle-content{
+  margin-bottom: 50px;
+  padding-right: 25px;
+  padding-left: 25px;
+}
+
+.row-greeting{
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.col-xs-2{
+  text-align: left;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.col-xs-2 h2,.row-greeting h2,.row-greeting p{
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: left;
+  font-size: 24px;
+}
+
+.row-greeting p{
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: left;
+  font-size: 20px;
+}
+
+.col-xs-1,.col-xs-2{
+  margin-top: 5%;
+  margin-bottom: 5%;
+  text-align: center;
+}
+
+.col-xs-1 img,.col-xs-2 img{
+  height: 300px;
+  width: 80%;
+  object-fit: cover;  
+}
+
+.menu1{
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  text-align: center;
+}
