@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+	<head>
+	<meta charset="utf-8">
+	<title>おやじの台所 味彩 ajisai</title>
+	<link rel="stylesheet" href="css/style.css">
+
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+	<script src="https://kit.fontawesome.com/655a84c0c1.js" crossorigin="anonymous"></script>
+
+	<script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+	</head>
+	<body>
+		<div class="main-bar">
+			<div class="main-nav">
+				<div class="main-container">
+					<div class="logo">
+						<img src="images/味彩看板.jpg">
+					</div>
+					<div class="main-menu">
+						<a href="/greeting"><strong>ご挨拶</strong></a>
+						<a href="/menu"><strong>お品書き</strong></a>
+						<a href="/access"><strong>店舗案内</strong></a>
+					</div>
+				</div>				
+			</div>
+		</div>
+
+		<div class="swiper-container">
+			<!-- Sliderの内包コンテナ -->
+			<div class="swiper-wrapper">
+				<!-- Slideさせたいコンテンツ -->
+				<div class="swiper-slide"><img src="images/sashimi.jpg"></div>
+				<div class="swiper-slide"><img src="images/oden.jpg"></div>
+				<div class="swiper-slide"><img src="images/ajisai_top.jpg"></div>
+			</div>
+		</div>
+
+		<div class="social">
+			<div class="timeline-Viewport" style="width: 520px;">			
+				<a class="twitter-timeline" href="https://twitter.com/ajisai_1201?ref_src=twsrc%5Etfw" data-tweet-limit="1" data-chrome=”noheader,transparent”>Tweets by ajisai_1201</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+			</div>
+			<div class="insta">
+				<a href="https://www.instagram.com/ajisai_mikawashima/"><i class="fab fa-instagram fa-2x"></i></a>
+			</div>
+		</div>
+
+			<div class="footer">
+				<div class="container-contact">
+					<div class="col-contact1">
+						<table class="table fon text-left">
+							<tbody>
+								<tr>
+									<th>NAME</th><td>おやじの台所 味彩 ajisai</td>
+								</tr>
+								<tr>
+									<th>TEL</th><td><a href="tel:0368068721">03-6806-8721</a><br>ご予約も承っております。</td>
+								</tr>
+								<tr>
+									<th>ADDRESS</th><td>〒116-0002<br>
+									東京都荒川区荒川3丁目66-4番</td>
+								</tr>
+								<tr>
+									<th>ACCESS</th><td>JR常磐線 三河島駅 徒歩2分</td>
+								</tr>
+								<tr>
+									<th>OPEN</th><td>17:00〜23:00 (L.O.22:00)<br>定休日：水曜日</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+					<div class="map_wrapper">
+						<div class="googlemap">
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3238.654501884863!2d139.7766409155053!3d35.734714680181824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188e7a333211f1%3A0xf90beb4dca07b826!2z44CSMTE2LTAwMDIg5p2x5Lqs6YO96I2S5bed5Yy66I2S5bed77yT5LiB55uu77yW77yW4oiS77yU!5e0!3m2!1sja!2sjp!4v1596285549612!5m2!1sja!2sjp" frameborder="0" style="border:0;" ></iframe>
+						</div>
+					</div>
+				</div>
+			</div>
+
+	<script>
+		var mySwiper = new Swiper ('.swiper-container', {
+		  // ここからオプション
+		  loop: true,
+		  pagination: {
+			el: '.swiper-pagination',
+		  },
+		  navigation: {
+			nextEl: '.swiper-button-next',
+			prevEl: '.swiper-button-prev',
+		  },
+		  scrollbar: {
+			el: '.swiper-scrollbar',
+		  },
+		  autoplay: {
+   		  delay: 1000,
+   		 disableOnInteraction: true
+  		  },
+		  effect: 'fade',
+		  speed: 4000,
+		})
+	</script>
+	</body>
+</html>
